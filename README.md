@@ -29,6 +29,6 @@ Use `compare.py` to compare against `goal.txt`. Accuracy of over 90% is acceptab
 
 ## Completed languages:
 
-- C
-- Python
-- Fortran
+- C (Reference)
+- Python (94.02%)
+- Fortran (100.00%)
