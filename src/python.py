@@ -13,7 +13,7 @@ def wrap(p):
     return tuple( (p[i] + repeat/2) % repeat - repeat/2 for i in range(3) )
 
 def sdf(p):
-    w = wrap(p);
+    w = wrap(p)
     return math.hypot(w[0], w[1], w[2]) - radius
 
 def add_tuple(a, b):
@@ -32,11 +32,11 @@ for y in range(screen_height):
         pos = camera
         c_dir = ( x / screen_width - 0.5, y / screen_height - 0.5, 1.0 )
         c_dir = normalize_tuple(c_dir)
-        traveled = 0.0;
+        traveled = 0.0
         for i in range(steps):
             safe = sdf(pos)
             traveled += safe
-            pos = add_tuple(pos, scale_tuple(c_dir, safe));
+            pos = add_tuple(pos, scale_tuple(c_dir, safe))
 
         if traveled < 5.0: o_str += '#'
         elif traveled < 10.0: o_str += '|'

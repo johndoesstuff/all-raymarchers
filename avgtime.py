@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 cmd = sys.argv[1:]
-runs = 1000
+runs = 100
 times = []
 
 for _ in range(runs):
