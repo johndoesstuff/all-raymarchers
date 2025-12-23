@@ -1,0 +1,7 @@
+Average Runtimes
+Calculated by avgtime.py
+
+Python:		0.151933s
+Ada:		0.005838s
+C:		0.004016s
+Fortran:	0.005355s

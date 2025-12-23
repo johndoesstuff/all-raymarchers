@@ -25,11 +25,11 @@ Programming a raymarcher is a good way to learn a language, it involves a decent
  |########################|      ......  .||||||||
 ```
 
-Use `compare.py` to compare against `goal.txt`. Accuracy of over 90% is acceptable.
+Use `compare.py` to compare against `goal.txt`.
 
 ## Completed languages:
 
 - C (Reference)
-- Python (94.02%)
+- Python (100.00%)
 - Fortran (100.00%)
 - Ada (100.00%)
