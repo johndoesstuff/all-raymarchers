@@ -1,8 +1,11 @@
 Average Runtimes
 Calculated by avgtime.py
 
-C:		0.004016s
-Fortran:	0.005355s
-Ada:		0.005838s
+Language	Time (seconds)	(Implementation)
+
+C:		0.004016s	gcc
+Fortran:	0.005355s	gfortran
+Ada:		0.005838s	gnatmake
+Forth:		0.031304s	gforth
 Python:		0.151933s
 Julia:		1.161199s
