@@ -9,4 +9,5 @@ Ada:		0.005838s	gnatmake
 Forth:		0.031304s	gforth
 APL:		0.112371s	gnuapl
 Python:		0.151933s
+Uiua:		~0.9s		uiua.org
 Julia:		1.161199s
