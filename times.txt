@@ -6,6 +6,7 @@ Language	Time (seconds)	(Implementation)
 C:		0.004016s	gcc
 Fortran:	0.005355s	gfortran
 Ada:		0.005838s	gnatmake
+Mercury:	0.028523s
 Forth:		0.031304s	gforth
 APL:		0.112371s	gnuapl
 Python:		0.151933s
