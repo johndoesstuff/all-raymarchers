@@ -38,3 +38,4 @@ Use `compare.py` to compare against `goal.txt`, note that some of these are off 
 - APL (99.90%)
 - Uiua (100.00%)
 - Mercury (100.00%)
+- Tiny Basic (99.22%)
