@@ -3,6 +3,7 @@ Calculated by avgtime.py
 
 Language	Time (seconds)	(Implementation)
 
+LLVM:		0.002452s	llc
 C:		0.004016s	gcc
 Fortran:	0.005355s	gfortran
 Ada:		0.005838s	gnatmake
